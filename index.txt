@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complycore Compliance Consultancy Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="absolute left-0 top-0 bg-blue-700 text-white p-2 z-50 focus:translate-y-0 -translate-y-full">Skip to main content</a>
+
+  <!-- Navigation -->
+  <header class="bg-white shadow fixed w-full z-40">
+  <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+    <!-- Logo Image -->
+    <a href="#" class="flex items-center space-x-2">
+      <img src="logo.png" alt="ComplyCore Logo" class="h-10 w-10 rounded-full" />
+      <span class="text-2xl font-bold text-blue-800">Complycore</span>
+    </a>
+    <nav aria-label="Main Navigation">
+      <ul class="flex space-x-6">
+        <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main id="main" class="pt-24">
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 text-center py-20">
+      <h2 class="text-4xl font-bold mb-4">Compliance Made Simple</h2>
+      <p class="max-w-2xl mx-auto mb-6">Helping businesses meet regulatory requirements, reduce risks, and build trust with customers and stakeholders.</p>
+      <a href="#contact" class="bg-blue-700 text-white px-6 py-3 rounded-xl hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">Get a Free Consultation</a>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="max-w-6xl mx-auto py-16 px-4">
+      <h3 class="text-3xl font-semibold mb-8 text-center">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Environmental Compliance</h4>
+          <p>Assistance with DENR, LLDA, and local permits for eco-regulatory compliance.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Health & Safety Audits</h4>
+          <p>Ensure workplace safety through risk assessment and regulatory compliance audits.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Corporate Governance</h4>
+          <p>Policies, documentation, and training programs for ethical and regulatory compliance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-100 py-16">
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-semibold mb-6">About Complycore</h3>
+        <p>Complycore Compliance Consultancy Services is dedicated to helping companies navigate complex regulatory landscapes with confidence. Our team of experienced professionals ensures your business meets all necessary standards efficiently and ethically.</p>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="max-w-4xl mx-auto py-16 px-4">
+      <h3 class="text-3xl font-semibold mb-8 text-center">Contact Us</h3>
+      <form action="https://formspree.io/f/mvgrrpll" method="POST" class="space-y-6" aria-label="Contact Form">
+        <div>
+          <label for="name" class="block font-medium">Name</label>
+          <input type="text" id="name" name="name" required class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
+        <div>
+          <label for="email" class="block font-medium">Email</label>
+          <input type="email" id="email" name="email" required class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
+        <div>
+          <label for="message" class="block font-medium">Message</label>
+          <textarea id="message" name="message" rows="5" required class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-700 text-white px-6 py-3 rounded-xl hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center">
+    <p>&copy; 2025 Complycore Compliance Consultancy Services. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
